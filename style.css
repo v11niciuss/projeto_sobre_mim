@@ -1,5 +1,5 @@
 body.home {
-    background-color: whitesmoke;
+    background: linear-gradient(to right, #141e30, #243b55);
 
     text-align: center;
 
@@ -13,27 +13,28 @@ body.home {
     font-family: "Domine", serif;
     font-style: italic;
 
-    color: green;
+    color: grey;
 }
 
 .home h2 {
     font-family: "Domine", serif;
+    font-style: italic;
 
-    color: green;
+    color: grey;
 
     margin-bottom: 60px;
 }
 
 .home hr {
     width: 100%;
-    border: 1px
+    border: 1px;
 }
 
 .descricao p {
     line-height: 1.6;
     font-family: "Domine" , serif;
 
-    color: green;
+    color: grey;
 }
 
 .links {
@@ -43,7 +44,7 @@ body.home {
 }
 
 .links div {
-    background-color: white;
+    background-color: #243b55;
 
     padding: 20px;
     margin-top: 20px;
@@ -55,7 +56,7 @@ body.home {
 }
 
 .links a {
-    color: red;
+    color: white;
 }
 
 .contatos {
@@ -64,17 +65,87 @@ body.home {
 
 .contatos h2 {
     padding: 20px;
+
+    font-style: italic;
 }
 
 .contatos p {
-    color: green;
+    color: grey;
 
     font-family: "Domine" , serif;
 }
 
 .contatos a {
-    color: red;
+    color: white;
 
     letter-spacing: 1.6px;
     font-family:  "Domine", serif;
 }
+
+body.sobremim {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+.sobremim h1 {
+    font-family: "Domine", serif;
+    font-style: italic;
+
+    color: grey;
+}
+
+.sobremim hr {
+    width: 100%;
+    border: 1px;
+}
+
+.apresentacao p {
+    font-family: "Domine", serif;
+    letter-spacing: 1.6;
+    font-weight: 400;
+
+    color: grey;
+}
+
+.apresentacao img {
+    height: 450px;
+    width: 500px;
+
+    border-radius: 16px;
+}
+
+.fecha h2 {
+    color: grey;
+
+    font-family: "Domine", serif;
+    font-style: italic;
+}
+
+.fecha {
+    display: block;
+
+    margin: 50px 0;
+}
+
+.fecha div {
+    background-color: #243b55;
+
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 150px;
+
+    border-radius: 16px;
+}
+
+.fecha a {
+    color: white;
+}
+
