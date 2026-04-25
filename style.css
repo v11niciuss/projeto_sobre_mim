@@ -149,3 +149,19 @@ body.sobremim {
     color: white;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+
