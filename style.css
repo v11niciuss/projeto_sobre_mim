@@ -148,23 +148,3 @@ body.sobremim {
 .fecha a {
     color: white;
 }
-
-.apresentacao {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
-.apresentacao p {
-  text-align: left;
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
-
-.apresentacao img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 16px;
-  display: block;
-  margin: 20px auto;
-}
