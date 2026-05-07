@@ -94,6 +94,7 @@ body.home {
     box-sizing: border-box;
     color: white;
     text-align: center;
+    padding: 20px;
  }
 
  .sobremim header {
@@ -116,8 +117,8 @@ body.home {
  .sobremim img {
     max-width: 800px;
     border-radius: 16px;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: auto;
  }
 
  .sobremim footer {
