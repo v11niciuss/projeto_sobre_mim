@@ -1,150 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 body.home {
-    background: linear-gradient(to right, #141e30, #243b55);
-
-    <text-align: center
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #008000;
+    color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-.home h1 {
-    font-family: "Domine", serif;
-    font-style: italic;
-
-    color: grey;
-}
-
-.home h2 {
-    font-family: "Domine", serif;
-    font-style: italic;
-
-    color: grey;
-
-    margin-bottom: 60px;
-}
-
-.home hr {
-    width: 100%;
-    border: 1px;
-}
-
-.descricao p {
-    line-height: 1.6;
-    font-family: "Domine" , serif;
-
-    color: grey;
-}
-
-.links {
-    display: block;
-
-    margin: 50px 0;
-}
-
-.links div {
-    background-color: #243b55;
-
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    width: 150px;
-
-    border-radius: 16px;
-}
-
-.links a {
-    color: white;
-}
-
-.contatos {
-    margin-bottom: 10px;
-}
-
-.contatos h2 {
-    padding: 20px;
-
-    font-style: italic;
-}
-
-.contatos p {
-    color: grey;
-
-    font-family: "Domine" , serif;
-}
-
-.contatos a {
-    color: white;
-
+.home header {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #006400;
     letter-spacing: 1.6px;
-    font-family:  "Domine", serif;
-}
 
-body.sobremim {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 2rem;
+ }
 
+.home section {
+    font-family: "Poppins" , sans-serif;
+    font-weight: 400;
     text-align: center;
 
-    background: linear-gradient(to right, #141e30, #243b55);
-}
-
-.sobremim h1 {
-    font-family: "Domine", serif;
-    font-style: italic;
-
-    color: grey;
-}
-
-.sobremim hr {
-    width: 100%;
-    border: 1px;
-}
-
-
-.apresentacao p {
-    font-family: "Domine", serif;
-    letter-spacing: 1.6;
-    font-weight: 400;
-
-    color: grey;
-}
-
-.apresentacao img {
-    height: 450px;
-    width: 500px;
-
-    border-radius: 16px;
-}
-
-.fecha h2 {
-    color: grey;
-
-    font-family: "Domine", serif;
-    font-style: italic;
-}
-
-.fecha {
-    display: block;
-
-    margin: 50px 0;
-}
-
-.fecha div {
-    background-color: #243b55;
-
-    padding: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
+    line-height: 1.6;
+    letter-spacing: 1.6px;
+    }
 
-    width: 150px;
-
+.links div {
+    border: 1px solid #006400;
     border-radius: 16px;
-}
+    width: 200px;
+    height: 100px;
+    text-align: center;
 
-.fecha a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    flex-direction: column;
+ }
+
+ .links a {
+    text-decoration: none;
     color: white;
-}
+    font-family: "Poppins" , sans-serif;
+ }
+
+ .contatos h2 {
+    background-color: #006400;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.6px;
+ }
+
+ .contatos div {
+    border: 1px solid #006400;
+    border-radius: 16px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    flex-direction: column;
+ }
+ 
+ .contatos a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins" , sans-serif;
+ }
+
+ .contatos p {
+    text-align: center;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: white;
+ }
