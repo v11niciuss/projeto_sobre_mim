@@ -1,146 +1,138 @@
 * {
-    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
     margin: 0;
+    padding: 0;
 }
-
 
 body.home {
-    background-color: #008000;
-    color: #f4f4f4;
-    box-sizing: border-box;
+    background-color: #0a1628;
+    color: #e0e0e0;
+    font-family: "Domine", serif;
+    text-align: center;
 }
 
-.home header {
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    background-color: #006400;
-    letter-spacing: 1.6px;
+/* CABEÇALHO */
+.cabecalho {
+    padding: 60px 20px 40px;
+}
 
-    padding: 2rem;
- }
+.cabecalho h1 {
+    font-size: 42px;
+    color: #4a9eff;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+}
 
-.home section {
-    font-family: "Poppins" , sans-serif;
+.cabecalho h2 {
+    font-size: 18px;
+    color: #7eb8ff;
     font-weight: 400;
-    text-align: center;
+    font-style: italic;
+}
 
-    margin-top: 80px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    letter-spacing: 1.6px;
-    }
+/* LINHA DIVISÓRIA */
+hr {
+    border: none;
+    border-top: 1px solid #1e3a5f;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.descricao p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #a0b8d0;
+    margin-bottom: 12px;
+}
+
+/* DIVS DE NAVEGAÇÃO */
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 .links div {
-    border: 1px solid #006400;
+    background-color: #0f2442;
+    border: 1px solid #1e3a5f;
     border-radius: 16px;
-    width: 200px;
-    height: 100px;
-    text-align: center;
+    padding: 28px;
+    width: 100%;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.links div:hover {
+    transform: translateY(-4px);
+    border-color: #4a9eff;
+    box-shadow: 0px 8px 24px rgba(74, 158, 255, 0.2);
+}
 
-    margin: auto;
-    flex-direction: column;
- }
+.links div h3 {
+    font-size: 20px;
+    color: #4a9eff;
+    margin-bottom: 12px;
+}
 
- .links a {
+.links div a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 20px;
+    background-color: #4a9eff;
+    color: #0a1628;
+    border-radius: 99px;
     text-decoration: none;
-    color: white;
-    font-family: "Poppins" , sans-serif;
- }
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
 
- .contatos h2 {
-    background-color: #006400;
-    font-family: "Hammersmith One" , sans-serif;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 1.6px;
- }
+.links div a:hover {
+    background-color: #7eb8ff;
+}
 
- .contatos div {
-    border: 1px solid #006400;
-    border-radius: 16px;
-    width: 150px;
-    height: 50px;
-    text-align: center;
+/* CONTATOS */
+.contatos {
+    padding: 40px 20px 60px;
+    border-top: 1px solid #1e3a5f;
+    margin-top: 20px;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contatos h2 {
+    font-size: 24px;
+    color: #4a9eff;
+    margin-bottom: 16px;
+}
 
-    margin: auto;
-    flex-direction: column;
- }
- 
- .contatos a {
+.contatos p {
+    color: #a0b8d0;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.redes a {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 1px solid #4a9eff;
+    color: #4a9eff;
+    border-radius: 99px;
     text-decoration: none;
-    color: white;
-    font-family: "Poppins" , sans-serif;
- }
+    font-size: 14px;
+    transition: background-color 0.2s, color 0.2s;
+}
 
- .contatos p {
-    text-align: center;
-    font-family: "Poppins" , sans-serif;
-    font-weight: 400;
-    letter-spacing: 1.6px;
-    color: white;
- }
-
- body.sobremim {
-    background-color: #008000;
-    box-sizing: border-box;
-    color: white;
-    text-align: center;
-    padding: 20px;
- }
-
- .sobremim header {
-    background-color: #006400;
-    font-family: "Hammersmith One" , sans-serif;
-    font-weight: 700;
-    letter-spacing: 1.6px;
- }
-
- .sobremim section {
-    font-family: "Poppins" , sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 1.6px;
-    
-    margin-top: 50px;
-    margin-bottom: 50px;
- }
-
- .sobremim img {
-    max-width: 800px;
-    border-radius: 16px;
-    width: 200px;
-    height: auto;
- }
-
- .sobremim footer {
-    font-family: "Poppins" , sans-serif;
-    color: white;
-    letter-spacing: 1.6px;
- }
-
- .fecha div {
-    border: 1px solid #006400;
-    border-radius: 16px;
-    margin: auto;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .fecha a {
-    text-decoration: none;
-    color: white;
- }
+.redes a:hover {
+    background-color: #4a9eff;
+    color: #0a1628;
+}
